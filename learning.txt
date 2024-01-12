@@ -1,0 +1,29 @@
+GIT and Github
+
+first have to connect with github by using vcommand in git bash 
+
+connect : username and email
+
+commands : 
+git config --global user.name -----
+git config --global user.email -----
+
+to check the connected github username or email 
+commands:
+git config --global user.name
+git config --global user.email
+
+1) make any folder inside it create a files if want then just paste that directory path in git bash 
+2) now u are good to go foor ahead such as start by commands 
+commands :
+git init - to initialize the the repo
+git add . - to add all the files 
+git commit -m "" - it will commit the files with individual message (-m stands for message)
+git status - check the status of files which are modified or not yet commited in tree
+git log  - to check all the comits time individually 
+git restore --staged <filename>  - if you have added the file in add and dont want to commit it further than restore it by this command
+git reset <commit id> - if u want to remove the stages of commit just take a commit id above from all commits will be gone 
+git stash -  its used whenever we want to do some work and want to save it for later to see and backup without even commit in branch it will just make a backup file (just make files do git add . and then git stash to save for later all that files)
+git stash pop - use to pop all that stash files u make for backup
+git stash clear - its just clear up all that files u used for backup and remove it
+s
