@@ -26,4 +26,5 @@ git reset <commit id> - if u want to remove the stages of commit just take a com
 git stash -  its used whenever we want to do some work and want to save it for later to see and backup without even commit in branch it will just make a backup file (just make files do git add . and then git stash to save for later all that files)
 git stash pop - use to pop all that stash files u make for backup
 git stash clear - its just clear up all that files u used for backup and remove it
-s
+git remote add origin <paste url of your github repo> - by this command it will add remotely work with your url , origi here sttes for stating to work with urls 
+
