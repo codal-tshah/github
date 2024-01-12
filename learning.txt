@@ -3,7 +3,6 @@ GIT and Github
 first have to connect with github by using vcommand in git bash 
 
 connect : username and email
-
 commands : 
 git config --global user.name -----
 git config --global user.email -----
@@ -27,4 +26,4 @@ git stash -  its used whenever we want to do some work and want to save it for l
 git stash pop - use to pop all that stash files u make for backup
 git stash clear - its just clear up all that files u used for backup and remove it
 git remote add origin <paste url of your github repo> - by this command it will add remotely work with your url , origi here sttes for stating to work with urls 
-
+git push origin <branch name> - by using this u can push all the files to github and u can see the uploaded files in branch  
