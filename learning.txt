@@ -33,4 +33,7 @@ git push origin <branch name> - by using this u can push all the files to github
 git branch - this is used to see which branch you are curretly working on 
 git branch -a  -- it shows the all remote branch
 git checkout <branchname> - it will move up to that particular branch 
- 
+
+4)
+git clone <github url> - by using this you can have clone that repo to your local system 
+
